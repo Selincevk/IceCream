@@ -1,0 +1,34 @@
+{
+  "ice-creams": [
+    {
+      "name": "Orman Meyveli Tutku",
+      "image": "/orman.png",
+      "price": 27.0
+    },
+    {
+      "name": "Kavun Ferahlığı",
+      "image": "/Kavun.png",
+      "price": 24.0
+    },
+    {
+      "name": "Beyaz Çikolata Keyfi",
+      "image": "/beyaz.png",
+      "price": 30
+    },
+    {
+      "name": "Limonlu Esinti",
+      "image": "/limon.png",
+      "price": 22
+    },
+    {
+      "name": "Kestane Tanesi",
+      "image": "/kestaneli.png",
+      "price": 32.0
+    },
+    {
+      "name": "Karamelli Mocha",
+      "image": "/karamel.png",
+      "price": 29.0
+    }
+  ]
+}
