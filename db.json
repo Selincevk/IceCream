@@ -21,14 +21,24 @@
       "price": 22
     },
     {
-      "name": "Kestane Tanesi",
-      "image": "/kestaneli.png",
+      "name": "Oreo Fırtınası",
+      "image": "/oreo.png",
       "price": 32.0
     },
     {
       "name": "Karamelli Mocha",
       "image": "/karamel.png",
       "price": 29.0
+    },
+     {
+      "name": "Çilekli Mutluluk",
+      "image": "/çilek.png",
+      "price": 25.0
+    },
+     {
+      "name": "İtalyan Karameli",
+      "image": "/italyan.png",
+      "price": 28.0
     }
   ]
 }

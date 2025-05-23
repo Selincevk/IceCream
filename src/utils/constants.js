@@ -28,9 +28,9 @@ const mockData = [
     id: "a8c0",
   },
   {
-    name: "Kestane Tanesi",
+    name: "Oreo Fırtınası",
     image:
-      "/kestaneli.png",
+      "/oreo.png",
     price: 32,
     id: "f0d1",
   },
@@ -40,6 +40,20 @@ const mockData = [
       "/karamel.png",
     price: 29,
     id: "b3e7",
+  },
+   {
+    name: "Çilekli Mutluluk",
+    image:
+      "/çilek.png",
+    price: 25,
+    id: "f9a2",
+  },
+  {
+    name: "İtalyan Karameli",
+    image:
+      "/italyan.png",
+    price: 28,
+    id: "f6b2",
   },
 ];
 
