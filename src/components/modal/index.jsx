@@ -1,8 +1,9 @@
 import { IoClose } from "react-icons/io5"
 import { useSelector } from "react-redux"
 import CartItem from "./CartItem"
+import CartInfo from "./CartInfo"
 const Modal = ({isOpen,close}) => {
-  const store = useSelector((store) => store)
+  const {cart} = useSelector((store) => store)
   return (
    isOpen && (
     <div data-testid="modal" className="fixed inset-0 bg-black/30 backdrop-blur-sm grid place-items-center z-[999]">
@@ -19,6 +20,7 @@ const Modal = ({isOpen,close}) => {
 )}
         </div>
         {/* Toplam kısım  */}
+        <CartInfo cart={cart} close={close} />
       </div>
     </div>
    )
