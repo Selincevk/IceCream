@@ -14,11 +14,16 @@ const Modal = ({isOpen,close}) => {
           <button onClick={close} data-testid="close" className="border p-2 rounded-md hover:bg-gray-300/50 transition">  <IoClose /> </button>
         </div>
 
-        <div className="py-5 border-b">
-{cart.lenght === 0 ? (<p className="text-center text-gray-600 text-lg font-semibold">Sepette Ürün Bulunmamaktadır. </p> ) : (
-  cart.map((item) => <CartItem key={item.id} item={item} /> )
-)}
-        </div>
+       <div className="py-5 border-b">
+  {cart.length === 0 ? (
+    <p className="text-center text-gray-600 text-lg font-semibold">
+      Sepette Ürün Bulunmamaktadır.
+    </p>
+  ) : (
+    cart.map((item) => <CartItem key={item.id} item={item} />)
+  )}
+</div>
+
         {/* Toplam kısım  */}
         <CartInfo cart={cart} close={close} />
       </div>
